@@ -132,3 +132,19 @@ header {
     }
   }
 }
+
+.article-container {
+  padding-block: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  color: var(--color-primary-300);
+  font-weight: 100;
+  font-family: Arial;
+
+  @media (min-width: 768px) {
+    padding-block: 2rem;
+    padding-inline: 1.875rem;
+    gap: 1.5rem;
+  }
+}
