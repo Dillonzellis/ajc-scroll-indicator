@@ -1,3 +1,5 @@
+import { ScrollIndicator } from "./scrollIndicator";
+
 export const Header = () => {
   return (
     <header>
@@ -14,6 +16,7 @@ export const Header = () => {
             className="small-logo"
           />
         </a>
+        <ScrollIndicator />
       </div>
     </header>
   );
