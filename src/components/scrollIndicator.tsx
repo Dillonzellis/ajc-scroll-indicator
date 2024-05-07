@@ -17,7 +17,7 @@ export const ScrollIndicator = () => {
   const startColor = `rgba(214, 87, 69, 1)`;
   const endColor = `rgba(232, 101, 82, ${(scrollPercentage / 100 + 0.7).toFixed(2)})`;
 
-  const borderRadius = scrollPercentage >= 100 ? "0" : "0 2px 2px 0";
+  const borderRadius = scrollPercentage >= 99.9 ? "0" : "0 2px 2px 0";
 
   return (
     <div className="scroll-container">
