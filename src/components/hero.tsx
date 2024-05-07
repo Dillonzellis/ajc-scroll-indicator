@@ -27,7 +27,7 @@ export const Hero = () => {
           <a href="/staff/chris-vivlamore/" rel="author">
             Chris Vivlamore
           </a>
-          <div className="date">3 hours ago</div>
+          <div className="date">10 hours ago</div>
         </div>
       </div>
     </div>
