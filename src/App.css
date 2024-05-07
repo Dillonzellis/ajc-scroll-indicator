@@ -48,6 +48,7 @@ header {
 
     .small-logo {
       display: block;
+      padding-top: 0.5rem;
     }
     .large-logo {
       display: none;
